@@ -8,5 +8,15 @@ bool control = true;
 string message = "Hello, World!";
 var name = "Mahmut";
 var age = 18;
+
 int x = 10, y = 20;
 bool result = (x < y) && (y > 15);
+
+if (age >= 18)
+{
+    Console.WriteLine("You can get a driver's licence.");
+}
+else
+{
+    Console.WriteLine("Your not old enought to get a driver's licence.");
+}
