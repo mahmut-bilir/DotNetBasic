@@ -50,3 +50,10 @@ for (int i = 1; i <= 5; i++)
 {
     Console.WriteLine("Number: " + i);
 }
+
+int counter = 1;
+while (counter <= 5)
+{
+    Console.WriteLine("Number: " + counter);
+    counter++;
+}
