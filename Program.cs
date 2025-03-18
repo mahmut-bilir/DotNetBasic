@@ -64,3 +64,9 @@ do
     Console.WriteLine("N: " + n);
     n++;
 } while (n <= 5);
+
+string[] names = { "Mahmut", "Mesut", "Ömer" };
+foreach (var nameItem in names)
+{
+    Console.WriteLine("Name: " + nameItem);
+}
