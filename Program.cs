@@ -57,3 +57,10 @@ while (counter <= 5)
     Console.WriteLine("Number: " + counter);
     counter++;
 }
+
+int n = 1;
+do
+{
+    Console.WriteLine("N: " + n);
+    n++;
+} while (n <= 5);
